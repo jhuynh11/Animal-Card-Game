@@ -1,0 +1,30 @@
+﻿Build started 2015-12-15 12:43:57 PM.
+     1>Project "C:\Users\justi_000\documents\visual studio 2015\Projects\AnimalProj_V4\AnimalProj_V4\AnimalProj_V4.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\justi_000\documents\visual studio 2015\Projects\AnimalProj_V4\Debug\AnimalProj_V4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\justi_000\documents\visual studio 2015\Projects\AnimalProj_V4\Debug\AnimalProj_V4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\justi_000\documents\visual studio 2015\Projects\AnimalProj_V4\Debug\AnimalProj_V4.lib" /MACHINE:X86 Debug\ActionCard.obj
+         Debug\AnimalCard.obj
+         Debug\AnimalCardFactory.obj
+         Debug\BearAction.obj
+         Debug\DeerAction.obj
+         Debug\Hand.obj
+         Debug\HareAction.obj
+         Debug\Joker.obj
+         Debug\main.obj
+         Debug\MooseAction.obj
+         Debug\NoSplit.obj
+         Debug\Player.obj
+         Debug\QueryResult.obj
+         Debug\SplitFour.obj
+         Debug\SplitThree.obj
+         Debug\SplitTwo.obj
+         Debug\StartCard.obj
+         Debug\StartStack.obj
+         Debug\Table.obj
+         Debug\WolfAction.obj
+     1>AnimalCardFactory.obj : error LNK2001: unresolved external symbol "private: static class AnimalCardFactory * AnimalCardFactory::theFactory" (?theFactory@AnimalCardFactory@@0PAV1@A)
+     1>C:\Users\justi_000\documents\visual studio 2015\Projects\AnimalProj_V4\Debug\AnimalProj_V4.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\justi_000\documents\visual studio 2015\Projects\AnimalProj_V4\AnimalProj_V4\AnimalProj_V4.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.25
